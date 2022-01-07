@@ -124,7 +124,6 @@ ul {
   padding: 1em 1em;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
   border-radius: 0.5em;
   font-size: 1.5em;
   box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
@@ -146,6 +145,16 @@ ul {
   display: block;
   width: 100%;
   margin-top: 5%;
+  background-color: #fff; /* Green */
+  border: none;
+  color: #0098db;
+  padding: 1em 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
 }
 
 table,
