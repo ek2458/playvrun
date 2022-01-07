@@ -168,14 +168,21 @@ a:visited {
 
 .button:hover {
   box-shadow: -3px -3px 8px white, 3px 3px 8px #babecc;
+  color: #fff;
 }
 
 .button:active {
   box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px white;
+  color: #fff;
 }
 
 .button:after {
   box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px white;
+  color: #fff;
+}
+.button:visited {
+  box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px white;
+  color: #fff;
 }
 
 .buttonlong {
