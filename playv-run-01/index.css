@@ -247,6 +247,8 @@ hr {
   .button {
     font-size: 1em;
     padding: 1em 1em;
+    display: block;
+    width: 100%;
   }
 
   .buttonImg{
