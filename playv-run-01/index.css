@@ -6,6 +6,13 @@ body {
   font-family: -apple-system, Arial, Helvetica, sans-serif;
 }
 
+.app{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5%;
+  width: 80%;
+}
+
 h1 {
   font-size: 3em;
   font-weight: 700;
@@ -35,6 +42,9 @@ p {
   font-weight: 300;
   line-height: 1.75em;
   margin-top: 0.5em;
+}
+
+.indent {
   margin-left: 2em;
 }
 
@@ -48,13 +58,16 @@ li {
 ul {
   margin-left: 2em;
 }
+ol {
+  margin-left: 2em;
+}
 
 .caption {
   font-size: 0.9em;
   color: #565656;
   font-weight: 400;
   line-height: 0.9em;
-  margin-left: 2em;
+  margin-left: 4em;
   margin-bottom: 5em;
 }
 .headline {
@@ -67,15 +80,6 @@ ul {
   text-align: center;
   margin-left: 0em;
 }
-.app {
-  margin: 0px;
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  justify-content: center;
-
-  padding-bottom: 2%;
-}
 
 .banner {
   width: 100%;
@@ -86,17 +90,11 @@ ul {
 
 .intro {
   height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
   padding-top: 5%;
-  width: 80%;
 }
 
 .rules {
   height: auto;
-  padding-left: 10%;
-  padding-right: 10%;
-  width: 80%;
 }
 
 .nav {
@@ -109,6 +107,18 @@ ul {
 .dates{
   width:45%;
 }
+
+.datesblock1 {
+  visibility: visible;
+  margin-top: 5%;
+  display:flex;
+  justify-content: space-between;
+}
+.datesblock2 {
+  visibility: hidden;
+  margin-top: 5%;
+}
+
 
 .prizepool {
   padding-top: 5%;
@@ -127,16 +137,15 @@ ul {
 }
 .button {
   width: 35%;
-  background-color: #fff; /* Green */
+  background-color: #0098db; /* Green */
   border: none;
-  color: #0098db;
-  padding: 2em 1em;
+  color: #fff;
+  padding: 1em 1em;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
   font-size: 16px;
   border-radius: 0.5em;
-  font-size: 2em;
+  font-size: 1.5em;
   box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
 }
 
@@ -152,22 +161,21 @@ ul {
   box-shadow: inset 5px 5px 10px #babecc, inset -5px -5px 10px white;
 }
 
-.buttonImg{
-  width: 100%; 
-  display:flex; 
-  justify-content: space-around; 
-  margin-top: 5%;"
-}
-
-.datesblock1 {
-  visibility: visible;
+.buttonlong {
+  display: block;
+  justify-self: center;
+  width: 100%;
   margin-top: 5%;
-  display:flex;
-  justify-content: space-evenly;
-}
-.datesblock2 {
-  visibility: hidden;
-  margin-top: 5%;
+  background-color: #0098db; /* Green */
+  border: none;
+  color: #fff;
+  padding: 1em 1em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
 }
 
 table,
@@ -223,6 +231,10 @@ hr {
     line-height: 1.7em;
     margin-left: 0em;
   }
+  .indent{
+    margin-left: 1em;
+  }
+
   h1 {
     font-size: 2.5em;
   }
@@ -244,12 +256,17 @@ hr {
     margin-left: 0em;
     
   }
+  ol {
+    margin-left: 0em;
+    
+  }
   li{
     font-size: 1em;
   }
   .caption {
     font-size: 0.85em;
     line-height: 1.5em;
+    margin-left: 2.75em;
   }
   .headline {
     font-size: 1em;
@@ -267,10 +284,9 @@ hr {
     padding: 1em 1em;
   }
 
-  .buttonImg{
-    width: 100%; 
+  .buttonlong{
+    width: 85%; 
     display:flex; 
-    justify-content: space-around; 
     margin-top: 5%;"
   }
 
@@ -283,6 +299,7 @@ hr {
   }
   .datesblock2 {
     visibility: visible;
+    width:100%;
   }
 
   hr {
