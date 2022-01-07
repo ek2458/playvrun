@@ -6,7 +6,7 @@ body {
   font-family: -apple-system, Arial, Helvetica, sans-serif;
 }
 
-.app{
+.app {
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 5%;
@@ -104,21 +104,20 @@ ol {
   margin-top: 10em;
   margin-bottom: 10em;
 }
-.dates{
-  width:45%;
+.dates {
+  width: 45%;
 }
 
 .datesblock1 {
   visibility: visible;
   margin-top: 5%;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 .datesblock2 {
   visibility: hidden;
   margin-top: 5%;
 }
-
 
 .prizepool {
   padding-top: 5%;
@@ -166,16 +165,16 @@ ol {
   justify-self: center;
   width: 100%;
   margin-top: 5%;
-  background-color: #0098db; /* Green */
+  /* background-color: #0098db; */
   border: none;
   color: #fff;
-  padding: 1em 1em;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 0.5em;
-  font-size: 1.5em;
-  box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc;
+  /* padding: 1em 1em; */
+  /* text-align: center; */
+  /* text-decoration: none; */
+  /* font-size: 16px; */
+  /* border-radius: 0.5em; */
+  /* font-size: 1.5em; */
+  /* box-shadow: -5px -5px 20px white, 5px 5px 20px #babecc; */
 }
 
 table,
@@ -207,9 +206,8 @@ hr {
 
 .score {
   background-color: #565656;
-  color: #fff
+  color: #fff;
 }
-
 
 @media only screen and (min-width: 600px) {
   .datesblock2 {
@@ -236,7 +234,7 @@ hr {
     line-height: 1.7em;
     margin-left: 0em;
   }
-  .indent{
+  .indent {
     margin-left: 1em;
   }
 
@@ -259,13 +257,11 @@ hr {
   }
   ul {
     margin-left: 0em;
-    
   }
   ol {
     margin-left: 0em;
-    
   }
-  li{
+  li {
     font-size: 1em;
   }
   .caption {
@@ -289,13 +285,7 @@ hr {
     padding: 1em 1em;
   }
 
-  .buttonlong{
-    width: 85%; 
-    display:block; 
-    margin-top: 5%;"
-  }
-
-  .dates{
+  .dates {
     width: 100%;
     margin-top: 5%;
   }
@@ -304,7 +294,7 @@ hr {
   }
   .datesblock2 {
     visibility: visible;
-    width:100%;
+    width: 100%;
   }
 
   hr {
