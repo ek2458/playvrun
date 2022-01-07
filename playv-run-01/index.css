@@ -205,6 +205,11 @@ hr {
   margin-bottom: 5%;
 }
 
+.score {
+  background-color: #565656;
+  color: #fff
+}
+
 
 @media only screen and (min-width: 600px) {
   .datesblock2 {
