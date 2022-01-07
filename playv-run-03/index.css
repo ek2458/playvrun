@@ -72,8 +72,12 @@ a:hover {
   color: #2c2c2c;
   text-decoration: underline;
 }
-a:visited {
+a:active {
   color: #2c2c2c;
+  text-decoration: underline;
+}
+a:visited {
+  color: #0098db;
   text-decoration: underline;
 }
 .caption {
